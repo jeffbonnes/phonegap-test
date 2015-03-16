@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.yourclient.yourcoolappname" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Your Cool App</name>
+  <description>
+    A sample Apache Cordova application that responds to the deviceready event.
+  </description>
+  <author email="dev@cordova.apache.org" href="http://cordova.io">
+    Apache Cordova Team
+  </author>
+  <content src="index.html" />
+  <access origin="*" />
+  <platform name="android">
+    <icon src="res/android/res-ldpi/appicon.png" density="ldpi" />
+    <icon src="res/android/res-mdpi/appicon.png" density="mdpi" />
+    <icon src="res/android/res-hdpi/appicon.png" density="hdpi" />
+    <icon src="res/android/res-xhdpi/appicon.png" density="xhdpi" />
+    <!-- you can use any density that exists in the Android project -->
+    <splash src="res/android/res-hdpi/default.png" density="port-hdpi"/>
+    <splash src="res/android/res-ldpi/default.png" density="port-ldpi"/>
+    <splash src="res/android/res-mdpi/default.png" density="port-mdpi"/>
+    <splash src="res/android/res-xhdpi/default.png" density="port-xhdpi"/>
+    -xhdpi"/>
+  </platform>
+
+  <platform name="ios">
+    <!-- iPhone / iPod Touch  -->
+    <icon src="res/ios/appicon-60.png" width="60" height="60" />
+    <icon src="res/ios/appicon-60@2x.png" width="120" height="120" />
+    <!-- iPad -->
+    <icon src="res/ios/appicon-76.png" width="76" height="76" />
+    <icon src="res/ios/appicon-76@2x.png" width="152" height="152" />
+    <!-- iOS 6.1 -->
+    <!-- iPhone / iPod Touch -->
+    <icon src="res/ios/appicon.png" width="57" height="57" />
+    <icon src="res/ios/appicon@2x.png" width="114" height="114" />
+    <!-- iPad -->
+    <icon src="res/ios/appicon-72.png" width="72" height="72" />
+    <icon src="res/ios/appicon-72@2x.png" width="144" height="144" />
+    <!-- iPhone Spotlight and Settings Icon -->
+    <icon src="res/ios/appicon-Small.png" width="29" height="29" />
+    <icon src="res/ios/appicon-Small@2x.png" width="58" height="58" />
+    <!-- iPad Spotlight and Settings Icon -->
+    <icon src="res/ios/appicon-Small-50.png" width="50" height="50" />
+    <!-- images are determined by width and height. The following are supported -->
+    <splash src="res/ios/Default.png" width="320" height="480"/>
+    <splash src="res/ios/Default@2x.png" width="640" height="960"/>
+    <splash src="res/ios/Default-Portrait.png" width="768" height="1024"/>
+    <splash src="res/ios/Default-Portrait@2x.png" width="1536" height="2048"/>
+    <splash src="res/ios/Default-Landscape.png" width="1024" height="768"/>
+    <splash src="res/ios/Default-Landscape@2x.png" width="2048" height="1536"/>
+    <splash src="res/ios/Default-568h@2x.png" width="640" height="1136"/>
+  </platform>
+</widget>
